@@ -62,10 +62,10 @@ public class Opgave1 {
         System.out.println("");
         System.out.println("Opgave 1.8");
 
-        double pi2 = 3.14159;
+        final double PI = 3.14159;
         double radius = 6.5;
-        double perimeter = 2 * radius * pi2;
-        double area = radius * radius * pi2;
+        double perimeter = 2 * radius * PI;
+        double area = radius * radius * PI;
 
         System.out.println("circle perimeter =");
         System.out.println(perimeter);
@@ -96,4 +96,3 @@ public class Opgave1 {
 
     }
 }
-        
