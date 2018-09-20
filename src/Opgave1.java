@@ -53,4 +53,47 @@ public class Opgave1 {
         System.out.println("");
         System.out.println("Opgave 1.7");
 
+        double pi = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11);
+        System.out.println(pi);
+        double pi1 = 4 * (1 - 1.0/3 + 1.0/5 - 1.0/7 + 1.0/9 - 1.0/11);
+        System.out.println(pi1);
+
+//Opgave 1.8
+        System.out.println("");
+        System.out.println("Opgave 1.8");
+
+        double pi2 = 3.14159;
+        double radius = 6.5;
+        double perimeter = 2 * radius * pi2;
+        double area = radius * radius * pi2;
+
+        System.out.println("circle perimeter =");
+        System.out.println(perimeter);
+        System.out.println("circle area =");
+        System.out.println(area);
+
+//Opgave 1.9
+        System.out.println("");
+        System.out.println("Opgave 1.9");
+
+        double area1 = 5.3 * 8.6;
+        double perimeter1 = 2 * (5.3 + 8.6);
+
+        System.out.println(area1);
+        System.out.println(perimeter1);
+
+//Opgave 1.10
+        System.out.println("");
+        System.out.println("Opgave 1.10");
+
+        double AverageSpeedInMiles = 0.5030 / 9.3;
+        System.out.println(AverageSpeedInMiles);
+
+
+
+
+
+
+    }
+}
         
