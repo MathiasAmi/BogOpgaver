@@ -86,9 +86,15 @@ public class Opgave1 {
         System.out.println("");
         System.out.println("Opgave 1.10");
 
-        double AverageSpeedInMiles = 0.5030 / 9.3;
+        int Distance = 15;
+        int DistanceinMiles = 15 / 1.6;
+
         System.out.println(AverageSpeedInMiles);
 
+
+//Opgave 1.11
+        System.out.println("");
+        System.out.println("Opgave 1.11");
 
 
 
@@ -96,3 +102,4 @@ public class Opgave1 {
 
     }
 }
+
