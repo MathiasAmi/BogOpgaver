@@ -86,20 +86,39 @@ public class Opgave1 {
         System.out.println("");
         System.out.println("Opgave 1.10");
 
-        int Distance = 15;
-        int DistanceinMiles = 15 / 1.6;
+        double distance = 15;
+        double time = 60*50+30;
+        double Mph = ((distance/1.6)/(time)*(60*60));
+        System.out.println("Mp/h " + Mph);
 
-        System.out.println(AverageSpeedInMiles);
 
 
 //Opgave 1.11
         System.out.println("");
         System.out.println("Opgave 1.11");
 
+        double BirthPerYear = (60 * 60 * 24 * 365) / 7;
+        double DeathPerYear = -(60 * 60 * 24 * 365) / 13;
+        double NewImmigrant = (60 * 60 * 24 * 365) / 45;
 
+        double Population = 312032486;
+        double year1 = Population + BirthPerYear + DeathPerYear + NewImmigrant;
+        double year5 = (BirthPerYear + DeathPerYear + NewImmigrant) * 5 + Population;
+        System.out.println("Year one population =" + year1);
+        System.out.println("population after 5 years =" + year5);
 
+//Opgave 1.12
 
+        System.out.println("");
+        System.out.println("Opgave 1.12");
 
+        double distance1 = 24;
+        double time1 = 60*60+45+30;
+
+        double kph = ((distance1*1.6)/(time1)*(60*60));
+        System.out.println("Kp/h " + kph);
+        
     }
 }
+
 
